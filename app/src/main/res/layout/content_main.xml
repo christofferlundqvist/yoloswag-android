@@ -14,7 +14,20 @@
     tools:context="com.example.christofferlundqvist.yoloswag1.MainActivity">
 
     <TextView
+        android:id="@+id/testText"
         android:text="com.example.christofferlundqvist.yoloswag1"
         android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
         android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/testButton"
+        style="@style/YoloSwagButtonStyle"
+        android:layout_below="@+id/testText"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="CLICK ME" />
+
 </RelativeLayout>
