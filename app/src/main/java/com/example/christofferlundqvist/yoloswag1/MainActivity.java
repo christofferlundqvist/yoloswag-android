@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, " ", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
@@ -70,7 +70,10 @@ public class MainActivity extends AppCompatActivity
         if (id == R.id.action_settings) {
             return true;
         }
-
+        if (id == R.id.action_bullshit) {
+            return true;
+        }
+        
         return super.onOptionsItemSelected(item);
     }
 
